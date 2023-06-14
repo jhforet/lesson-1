@@ -1,0 +1,153 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    color: #222328;
+}
+
+header { 
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header img {
+    float: left;
+    position:absolute;
+    top: 50%;
+    margin-top: -16px;
+}
+
+header ul {
+    float: right;
+    list-style-type: none;
+    margin: 38px 140px;
+}
+
+header li {
+    display: inline-block;
+}
+
+header a {
+    display: inline-block;
+    width: 67%;
+    color: #222328;
+    text-decoration-line: none;
+    padding: 0 28px;
+    text-align: center;
+}
+
+header a:hover {
+    display: inline-block;
+    width: 67%;
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.slide {
+    width: 1200px;
+    height: 400px;
+    background-image: url(../../images/slidebanner.png);
+    margin: 0 auto;
+} 
+
+.slide div {
+    padding: 10px 50px;
+}
+
+.slide>div>p:nth-child(1) {
+    font-size: small;
+    font-weight: bold;
+}
+
+.slide>div>p:nth-child(2) {
+    font-weight: bold;
+}
+
+.slide>div>p:nth-child(3) {
+    font-size: 1.7em;
+    font-weight: bold;
+    color: darkgreen;
+}
+
+.slide>div>p:nth-child(4) {
+    font-size: 0.73em
+}
+
+.slide a {
+    display: inline-block;
+    width: 190px;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 40px;
+    background-color: darkgreen;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.banner {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner>p {
+    font-weight: bold;
+}
+
+.banner>h2  {
+    font-size: 2.2em;
+    padding-top: 20px;
+}
+
+.banner h3 {
+    font-size: 1.6em;
+}
+
+.banner a {
+    display: inline-block;
+    color: #222328;
+    text-decoration-line: none;
+    width: 300px;
+    height: 250px;
+    padding-top: 50px;
+    border-radius: 100%;
+    background-color: #eee;
+
+}
+.banner li {
+    display: inline-block;
+    margin: 45px;
+}
+
+
+footer {
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+footer>div:nth-child(2) {
+    margin: 20px;
+    float: left;
+    line-height: 15px;
+    font-size: small;
+}
+
+footer ul {
+    margin: 20px 220px 0 0;
+    float: right;
+}
+
+footer li {
+    display: inline-block;
+    vertical-align: middle;
+}

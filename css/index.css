@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url("./style.css");
+
+.contents {
+    position: relative;
+    width: 1200px;
+    min-height: 400px;
+}
+/* slide 시작 */
+
+.slide {
+    position: relative;
+    width: 1200px;
+    height: 400px;
+    background: url(../images/slidebanner.png) no-repeat 0 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.slide>p:nth-child(1) {
+    font-weight: bold;
+    color: #555;
+}
+
+.slide>p:nth-child(1)::after {
+    content: "";
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    /* border: 1px solid red; */
+    background: url(../images/slide_icon.png) no-repeat 0 2px;
+    background-size: 38px;
+}
+
+.slide>p:nth-child(2) {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #555;
+}
+
+.slide>h2 {
+    color: #3c6f60;
+    font-size: 2.5em;
+}
+
+.slide>p:nth-child(4) {
+    font-size: 0.9em;
+    color: #555;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+
+.slide>p:nth-child(5)>a {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #3c6f60;
+    font-size: 0.9em;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.slide>p:nth-child(5)>a:hover {
+    background-color: #ee9456;
+}
+
+/* banner 시작 */
+
+.banner {
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.banner>h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.banner>ul {
+    margin-top: 50px;
+}
+
+.banner>ul>li {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: #ccc;
+    float: left;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.banner>ul>li:nth-child(1) {
+    margin-left: 50px;
+}
+
+.banner>ul>li:nth-child(2) {
+    margin: 0 100px;
+}
+
+.banner>ul>li:nth-child(3) {
+    margin-right: 50px;
+}
